@@ -1,0 +1,12 @@
+{
+  "method": "fsync + per-file DONTNEED, checked with mincore without reading model bytes",
+  "before": {
+    "resident_pages": 513900,
+    "pages": 513900
+  },
+  "after": {
+    "resident_pages": 0,
+    "pages": 513900
+  },
+  "scope": "Linux guest cache only; host cache not controlled"
+}

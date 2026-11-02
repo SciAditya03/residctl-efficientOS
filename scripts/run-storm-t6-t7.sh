@@ -1,6 +1,6 @@
 #!/bin/bash
 set -u
-RESIDCTL=/root/residctl
+RESIDCTL=/home/adity247/projects/residctl
 GEN=$RESIDCTL/src/gen_pattern
 MODEL=$RESIDCTL/scratch/pattern_16m.bin
 RESULTS=$RESIDCTL/results

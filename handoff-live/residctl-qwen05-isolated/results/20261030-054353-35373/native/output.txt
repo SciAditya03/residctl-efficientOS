@@ -1,0 +1,1 @@
+Virtual memory is a memory management technique that uses hard disk space as an extension of

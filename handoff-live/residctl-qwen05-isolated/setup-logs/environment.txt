@@ -1,0 +1,6 @@
+Linux LAPTOP-OUEQ0FDS 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+cmake version 3.28.3
+Python 3.12.3
+ldd (Ubuntu GLIBC 2.39-0ubuntu8.9) 2.39

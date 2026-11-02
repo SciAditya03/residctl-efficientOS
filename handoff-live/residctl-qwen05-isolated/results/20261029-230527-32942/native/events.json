@@ -1,0 +1,143 @@
+[
+  {
+    "type": "phase",
+    "phase": "runner_start",
+    "monotonic_us": 35434187755
+  },
+  {
+    "type": "phase",
+    "phase": "loading_model",
+    "monotonic_us": 35434189575
+  },
+  {
+    "type": "phase",
+    "phase": "model_loaded",
+    "monotonic_us": 35436910959
+  },
+  {
+    "type": "phase",
+    "phase": "creating_context",
+    "monotonic_us": 35436911195
+  },
+  {
+    "type": "phase",
+    "phase": "context_ready",
+    "monotonic_us": 35436919526
+  },
+  {
+    "type": "phase",
+    "phase": "generating",
+    "monotonic_us": 35436919553
+  },
+  {
+    "type": "token",
+    "id": 33026,
+    "monotonic_us": 35437626117,
+    "piece_hex": "5669727475616c"
+  },
+  {
+    "type": "token",
+    "id": 4938,
+    "monotonic_us": 35438751152,
+    "piece_hex": "206d656d6f7279"
+  },
+  {
+    "type": "token",
+    "id": 374,
+    "monotonic_us": 35439545048,
+    "piece_hex": "206973"
+  },
+  {
+    "type": "token",
+    "id": 264,
+    "monotonic_us": 35440017365,
+    "piece_hex": "2061"
+  },
+  {
+    "type": "token",
+    "id": 4938,
+    "monotonic_us": 35440858287,
+    "piece_hex": "206d656d6f7279"
+  },
+  {
+    "type": "token",
+    "id": 6240,
+    "monotonic_us": 35442093579,
+    "piece_hex": "206d616e6167656d656e74"
+  },
+  {
+    "type": "token",
+    "id": 14762,
+    "monotonic_us": 35443415146,
+    "piece_hex": "20746563686e69717565"
+  },
+  {
+    "type": "token",
+    "id": 429,
+    "monotonic_us": 35444881534,
+    "piece_hex": "2074686174"
+  },
+  {
+    "type": "token",
+    "id": 5711,
+    "monotonic_us": 35446482712,
+    "piece_hex": "2075736573"
+  },
+  {
+    "type": "token",
+    "id": 2588,
+    "monotonic_us": 35448271362,
+    "piece_hex": "2068617264"
+  },
+  {
+    "type": "token",
+    "id": 13364,
+    "monotonic_us": 35450022455,
+    "piece_hex": "206469736b"
+  },
+  {
+    "type": "token",
+    "id": 3550,
+    "monotonic_us": 35451789035,
+    "piece_hex": "207370616365"
+  },
+  {
+    "type": "token",
+    "id": 438,
+    "monotonic_us": 35453526484,
+    "piece_hex": "206173"
+  },
+  {
+    "type": "token",
+    "id": 458,
+    "monotonic_us": 35455297234,
+    "piece_hex": "20616e"
+  },
+  {
+    "type": "token",
+    "id": 8894,
+    "monotonic_us": 35457101188,
+    "piece_hex": "20657874656e73696f6e"
+  },
+  {
+    "type": "token",
+    "id": 315,
+    "monotonic_us": 35458882412,
+    "piece_hex": "206f66"
+  },
+  {
+    "type": "phase",
+    "phase": "generation_finished",
+    "monotonic_us": 35458882442
+  },
+  {
+    "type": "phase",
+    "phase": "shutting_down",
+    "monotonic_us": 35458949613
+  },
+  {
+    "type": "phase",
+    "phase": "finished",
+    "monotonic_us": 35458949651
+  }
+]

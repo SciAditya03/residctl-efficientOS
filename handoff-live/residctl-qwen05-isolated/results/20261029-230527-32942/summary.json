@@ -1,0 +1,142 @@
+{
+  "settings": {
+    "expected_model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+    "model_size": 2104932768,
+    "tokens": 16,
+    "threads": 8,
+    "cap_mib": 1800,
+    "weight_bytes": 1578700800,
+    "raw_prompt": false,
+    "question": "Explain virtual memory in one short sentence.",
+    "note": "Real-time display/instrumented run, guest file-cache prepared; host cache not controlled; not a statistical benchmark."
+  },
+  "arms": {
+    "native": {
+      "runner_metrics": {
+        "arm_mode": "mmap",
+        "n_prompt": "28",
+        "n_decoded": "16",
+        "layer_transitions": "576",
+        "load_s": "2.721",
+        "ttft_ms": "706.52",
+        "p99_inter_ms": "1803.953",
+        "wall_s": "21.963",
+        "tokens_s": "0.729",
+        "io_read_bytes_load": "2106507264",
+        "io_read_bytes_gen": "22260490240"
+      },
+      "pager_metrics": null,
+      "launch_to_exit_s": 24.7919678870021,
+      "launch_to_first_token_s": 3.465591462998418,
+      "first_to_last_token_throughput": 0.7056733076013482,
+      "peak_cgroup_bytes": 1887436800,
+      "token_ids": [
+        33026,
+        4938,
+        374,
+        264,
+        4938,
+        6240,
+        14762,
+        429,
+        5711,
+        2588,
+        13364,
+        3550,
+        438,
+        458,
+        8894,
+        315
+      ],
+      "output_text": "Virtual memory is a memory management technique that uses hard disk space as an extension of",
+      "cache_preparation": {
+        "method": "fsync + per-file DONTNEED, checked with mincore without reading model bytes",
+        "before": {
+          "resident_pages": 513900,
+          "pages": 513900
+        },
+        "after": {
+          "resident_pages": 0,
+          "pages": 513900
+        },
+        "scope": "Linux guest cache only; host cache not controlled"
+      }
+    },
+    "residctl": {
+      "runner_metrics": {
+        "arm_mode": "residctl",
+        "n_prompt": "28",
+        "n_decoded": "16",
+        "layer_transitions": "576",
+        "load_s": "0.244",
+        "ttft_ms": "1916.52",
+        "p99_inter_ms": "644.406",
+        "wall_s": "10.274",
+        "tokens_s": "1.557",
+        "io_read_bytes_load": "6148096",
+        "io_read_bytes_gen": "11542487040"
+      },
+      "pager_metrics": {
+        "policy": "layer_order_declared",
+        "prefetch": "off",
+        "budget_bytes": "1578700800",
+        "n_chunks": "41",
+        "n_layers": "36",
+        "region_len": "2104934400",
+        "file_size": "2104932768",
+        "absent_handled": "249",
+        "evictions": "221",
+        "infeasible": "0",
+        "prefetches": "0",
+        "pager_bytes_fetched": "11542515712",
+        "dedup_resident": "0",
+        "dedup_fetching": "149",
+        "pin_broken": "0",
+        "resident_bytes_end": "1573572608",
+        "memory_peak": "1673113600",
+        "handler_p99_ns": "134217727",
+        "notify_layers": "640",
+        "stat_fetching_timeout": "0",
+        "protect_current": "off",
+        "signal_mode": "pre",
+        "stat_prefetch_declined": "0"
+      },
+      "launch_to_exit_s": 10.748289807997935,
+      "launch_to_first_token_s": 2.1964073669951176,
+      "first_to_last_token_throughput": 1.7948260191381102,
+      "peak_cgroup_bytes": 1673113600,
+      "token_ids": [
+        33026,
+        4938,
+        374,
+        264,
+        4938,
+        6240,
+        14762,
+        429,
+        5711,
+        2588,
+        13364,
+        3550,
+        438,
+        458,
+        8894,
+        315
+      ],
+      "output_text": "Virtual memory is a memory management technique that uses hard disk space as an extension of",
+      "cache_preparation": {
+        "method": "fsync + per-file DONTNEED, checked with mincore without reading model bytes",
+        "before": {
+          "resident_pages": 442080,
+          "pages": 513900
+        },
+        "after": {
+          "resident_pages": 0,
+          "pages": 513900
+        },
+        "scope": "Linux guest cache only; host cache not controlled"
+      }
+    }
+  },
+  "exact_token_parity": true
+}

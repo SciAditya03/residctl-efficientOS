@@ -52,3 +52,12 @@ models/
 src/wp2_gen
 src/wp2_opt
 src/wp2_obj/
+
+# Temporary backups
+*.bak
+
+# Downloaded models and generated benchmark artifacts
+*.gguf
+*.part
+__pycache__/
+*.pyc

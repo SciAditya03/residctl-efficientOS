@@ -3,7 +3,7 @@
 # belady_main --selftest, item 9). Must pass before any performance number
 # from item 10's harness is treated as trustworthy.
 set -u
-RESIDCTL=/root/residctl
+RESIDCTL=/home/adity247/projects/residctl
 GEN=$RESIDCTL/src/gen_pattern
 MODEL=$RESIDCTL/scratch/pattern_16m.bin
 RESULTS=$RESIDCTL/results

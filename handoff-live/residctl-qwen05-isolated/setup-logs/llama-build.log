@@ -1,0 +1,7 @@
+[  4%] Built target ggml-base
+[  6%] Linking CXX shared library ../../bin/libggml-cpu.so
+[ 12%] Built target ggml-cpu
+[ 14%] Linking CXX shared library ../../bin/libggml.so
+[ 14%] Built target ggml
+[ 14%] Linking CXX shared library ../bin/libllama.so
+[100%] Built target llama

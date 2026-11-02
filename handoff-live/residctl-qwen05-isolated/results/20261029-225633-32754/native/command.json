@@ -1,0 +1,28 @@
+{
+  "command": [
+    "timeout",
+    "--foreground",
+    "--signal=TERM",
+    "--kill-after=10s",
+    "180s",
+    "bash",
+    "-c",
+    "set -e; printf \"%s\\n\" \"$$\" > \"$1/cgroup.procs\"; shift; exec \"$@\"",
+    "_",
+    "/sys/fs/cgroup/residctl_live_32754_1793314594114250281_native",
+    "/home/adity247/projects/residctl/handoff-live/residctl-qwen05-isolated/build/residctl_llama_live",
+    "-m",
+    "/home/adity247/projects/residctl/handoff-live/residctl-qwen05-isolated/models/4996c94ad0d06e52/model.gguf",
+    "-n",
+    "16",
+    "-t",
+    "8",
+    "-p",
+    "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nExplain virtual memory in one short sentence.<|im_end|>\n<|im_start|>assistant\n",
+    "--dump-tokens",
+    "/home/adity247/projects/residctl/handoff-live/residctl-qwen05-isolated/results/20261029-225633-32754/native/tokens.txt"
+  ],
+  "prompt": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nExplain virtual memory in one short sentence.<|im_end|>\n<|im_start|>assistant\n",
+  "RESIDCTL_CONFIG": null,
+  "LD_LIBRARY_PATH": "/home/adity247/projects/residctl/handoff-live/residctl-qwen05-isolated/work/llama-build/bin"
+}

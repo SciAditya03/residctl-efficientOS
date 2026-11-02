@@ -1,14 +1,14 @@
 === T-6 (dedup branches fire under async handler, 60s) ===
 T-6: async_handler=1 fetch_workers=4
 storm running for 60s with 8 threads, budget=4194304 (2 chunks of 2097152)...
-T-6 done: total_touches=145795 mismatches=0 resident_bytes=4194304 budget_bytes=4194304 evictions=53299 absent_handled=48783 dedup_resident=24002 dedup_fetching=15336 prefetches=4518 infeasible=27180
-PASS (stat_dedup_fetching=15336 > 0)
+T-6 done: total_touches=122266 mismatches=0 resident_bytes=4194304 budget_bytes=4194304 evictions=45332 absent_handled=41481 dedup_resident=20204 dedup_fetching=13198 prefetches=3853 infeasible=26537
+PASS (stat_dedup_fetching=13198 > 0)
 exit code: 0
 
 === T-7 (no fault ever lost, storm + 120s internal watchdog, 60s storm) ===
 T-7: async_handler=1 fetch_workers=4 watchdog=120s
 storm running for 60s with 8 threads, budget=4194304 (2 chunks of 2097152)...
-T-7 done: total_touches=146691 mismatches=0 resident_bytes=4194304 budget_bytes=4194304 evictions=53771 absent_handled=49338 dedup_resident=24143 dedup_fetching=15530 prefetches=4435 infeasible=27423
+T-7 done: total_touches=122186 mismatches=0 resident_bytes=4194304 budget_bytes=4194304 evictions=45310 absent_handled=41542 dedup_resident=20440 dedup_fetching=12972 prefetches=3770 infeasible=26523
 PASS (all 8 storm threads joined within the 120s watchdog -- no lost fault)
 exit code: 0
 

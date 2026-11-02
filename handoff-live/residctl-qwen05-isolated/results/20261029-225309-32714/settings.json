@@ -1,0 +1,12 @@
+{
+  "expected_model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+  "model_size": 2104932768,
+  "tokens": 16,
+  "threads": 8,
+  "cap_mib": 1800,
+  "weight_bytes": 1578700800,
+  "raw_prompt": false,
+  "question": "Explain virtual memory in one short sentence.",
+  "note": "Real-time display/instrumented run, guest file-cache prepared; host cache not controlled; not a statistical benchmark.",
+  "kit": "/home/adity247/projects/residctl/handoff-live/residctl-qwen05-isolated"
+}
